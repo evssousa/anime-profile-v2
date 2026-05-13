@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  /* Cores customizadas do Anime Profile */
+  --color-anime-primary: #f43f5e;   /* Rosa/Vermelho vibrante */
+  --color-anime-secondary: #8b5cf6; /* Roxo Gamificação */
+  --color-anime-accent: #fbbf24;    /* Amarelo Moedas/Destaque */
+  --color-anime-dark: #0f172a;      /* Fundo Principal */
+  --color-anime-card: #1e293b;      /* Fundo dos Cards */
+  
+  --color-background: var(--color-anime-dark);
+  --color-foreground: #f8fafc;
+}
+
+:root {
+  background-color: var(--color-anime-dark);
+  color: var(--color-foreground);
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+}
